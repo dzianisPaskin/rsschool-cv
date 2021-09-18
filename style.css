@@ -1,0 +1,255 @@
+body {
+  font: 400 17px "Roboto Slab", sans-serif;
+  line-height: 23px;
+  letter-spacing: 1px;
+  color: #666666;
+  background-color: rgba(187, 122, 59, 0.1);
+}
+
+h3 {
+  padding-bottom: 14px;
+  border-bottom: 4px solid rgba(187, 122, 59, 0.3);
+  font: 900 22px "Roboto Slab", sans-serif;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #242732;
+}
+
+a {
+  color: #4f4f4f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.line {
+  height: 4px;
+  width: 25%;
+  background-color: #BB7A3B;
+  margin-top: -4px;
+}
+
+.container {
+  margin: 100px auto 0;
+  width: 1024px;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.main {
+  width: 60%;
+}
+
+.info {
+  margin-left: 100px;
+  width: 35%;
+}
+
+.header-photo {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.header-photo img {
+  margin-left: 15%;
+  display: block;
+  height: 218px;
+}
+
+.header-photo::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  background-color: #BB7A3B;
+
+}
+
+.header-name {
+  font: 700 90px "Roboto Slab", sans-serif;
+  line-height: 45px;
+  letter-spacing: 10px;
+  color: #BB7A3B;
+}
+
+.header-lastname {
+  font: 400 60px "Roboto Slab", sans-serif;
+  letter-spacing: 5px;
+  color: #242732;
+}
+
+.header-profession {
+  font: 400 22px "Roboto Slab", sans-serif;
+  letter-spacing: 5px;
+  color: #4F4F4F;
+}
+
+.about {
+  margin: 60px 0 60px;
+}
+
+.about-text,
+.hobbies-text,
+.code-text {
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.hobbies {
+  margin-bottom: 40px;
+}
+
+pre {
+  margin: 0 -70px 0 0;
+  padding: 0 20px;
+  /* background-color: rgba(187, 122, 59, 0.1); */
+}
+
+code {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+
+.contacts,
+.education,
+.skills {
+  margin-bottom: 30px;
+}
+
+.contacts-list,
+.education-list,
+.skills-list,
+.languages-list {
+  margin-top: 30px
+}
+
+.contacts-list li {
+  padding: 0 0 20px 70px;
+}
+
+.contacts-link {
+  position: relative;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.contacts-link:hover {
+  text-decoration: underline;
+}
+
+.contacts-link--telegram::before {
+  content: url("./img/telegram.svg");
+  position: absolute;
+  top: -1px;
+  left: -60px;
+}
+
+.contacts-link--phone::before {
+  content: url("./img/phone.svg");
+  position: absolute;
+  top: -12px;
+  left: -66px;
+}
+
+.contacts-link--email::before {
+  content: url("./img/email.svg");
+  position: absolute;
+  top: -11px;
+  left: -66px;
+}
+
+.education-list li {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #4F4F4F;
+}
+
+.education-links li {
+  position: relative;
+  padding: 15px 0 0 40px;
+  text-transform: none;
+}
+
+.education-link::before {
+  content: url("./img/Rectangle.svg");
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.languages-list {
+  text-align: center;
+}
+
+.skills-list--item,
+.languages-list li {
+  position: relative;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.skills-list--item::after {
+  content: url("./img/RectangleScale-bg.svg");
+  position: absolute;
+  right: 0px;
+  bottom: 17px;
+}
+
+.skills-scale--foure::before {
+  content: url("./img/rectangleScale4.svg");
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  bottom: 19px;
+}
+
+.skills-scale--three::before {
+  content: url("./img/rectangleScale3.svg");
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  bottom: 19px;
+}
+
+.languages-list li {
+  padding-left: 40px;
+}
+
+/* .languages-list li::before {
+  content: url("./img/Rectangle.svg");
+  position: absolute;
+  top: -5px;
+  left: 0;
+} */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  padding: 20px 0 20px;
+  width: 100%;
+
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+}
+
+.github-logo {
+  padding-right: 10px;
+}
