@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Denis Paskin</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <main class="main">
+        <header>
+          <div class="header-photo">
+            <img src="./img/myFoto4.png" alt="my photo">
+          </div>
+          <h1 class="header-name">DENIS</h1>
+          <h2 class="header-lastname">PASKIN</h2>
+          <p class="header-profession">FONTEND DEVELOPER</p>
+        </header>
+        <section class="about">
+          <h3 class="about-title">About myself</h3>
+          <div class="line"></div>
+          <p class="about-text">
+            After graduation, I started my career as a personal coach (fitness coach). Having successfully worked for 4
+            years in
+            this profession, I became interested in IT, especially front-end development. Why frontend? There are
+            several reasons: <br>
+            1. It's interesting and exciting. <br>
+            2. The opportunities for development are endless. <br>
+            3. High demand in the labor market. <br>
+            And I'm sure that my commitment to continuous development and learning will help me become a good
+            front-end
+            developer.
+          </p>
+        </section>
+        <section class="code">
+          <h3 class="code-title">Code Exemple</h3>
+          <div class="line"></div>
+          <p class="code-text">
+            You are given an array (which will have a length of at least 3, but could be very large) containing
+            integers. The array
+            is either entirely comprised of odd integers or entirely comprised of even integers except for a single
+            integer N. Write
+            a method that takes the array as an argument and returns this "outlier" N.
+          </p>
+          <pre class="code-example">
+<code>
+function findOutlier(integers){
+
+let odds = integers.filter(function(num) {
+  return num % 2
+});
+
+let evens = integers.filter(function(num) {
+  return !(num % 2)
+});
+
+return evens.length == 1 ? evens[0] : odds[0];
+
+}
+</code>   
+
+              </pre>
+        </section>
+      </main>
+
+      <aside class="info">
+        <section class="contacts">
+          <h3 class="contacts-title">CONTACT</h3>
+          <div class="line"></div>
+          <ul class="contacts-list">
+            <li><a class="contacts-link contacts-link--telegram" href="https://telegram.me/d_pskn">@d_pskn</a></li>
+            <li><a class="contacts-link contacts-link--phone" href="tel:+48889585709">+48 889 585 709</a></li>
+            <li><a class="contacts-link contacts-link--email"
+                href="mailto:paskin.denis.00@gmail.com">paskin.denis.00@gmail.com</a></li>
+          </ul>
+        </section>
+        <section class="education">
+          <h3 class="education-title">EDUCATION</h3>
+          <div class="line"></div>
+          <ul class="education-list">
+            <li>
+              JavaScript Manual on <a href="https://learn.javascript.ru/">learnjavascript.ru</a>
+            </li>
+            <li>
+              HTML and CSS Tutorials on <a href="https://www.w3schools.com/">w3schools</a>
+            </li>
+            <li>
+              Physical Culture and Sports
+              VSU named after P.M Masherov
+            </li>
+            <li>Video courses:
+              <ul class="education-links">
+                <li><a class="education-link" href="https://www.youtube.com/c/GloAcademyChannel">Glo Academy</a></li>
+                <li><a class="education-link" href="https://www.youtube.com/c/artsorax">Sorax</a></li>
+                <li><a class="education-link" href="https://www.youtube.com/c/VladilenMinin">Vladilen Minin</a></li>
+                <li><a class="education-link"
+                    href="https://www.youtube.com/c/FreelancerLifeStyle">FreelancerLifeStyle</a>
+                </li>
+                <li><a class="education-link" href="https://www.youtube.com/c/%D0%9E%D1%820%D0%B4%D0%BE1">From0to1</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h3 class="skills-title">SKILLS</h3>
+          <div class="line"></div>
+          <ul class="skills-list">
+            <li class="skills-list--item skills-scale--foure">HTML/CSS</li>
+            <li class="skills-list--item skills-scale--three">JavaScript</li>
+            <li class="skills-list--item skills-scale--foure">SCSS</li>
+            <li class="skills-list--item skills-scale--three">Gulp</li>
+            <li class="skills-list--item skills-scale--three">Git</li>
+            <li class="skills-list--item skills-scale--three">Figma</li>
+          </ul>
+        </section>
+        <section class="languages">
+
+          <h3 class="languages-title">Languages</h3>
+          <div class="line"></div>
+          <ul class="languages-list">
+            <li>English - A2</li>
+            <li>Polish - A2</li>
+            <li>Russian - native</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+    <footer class="footer">
+      <a class="github-link" href="https://github.com/dzianisPaskin">
+        <img class="github-logo" src="./img/github.svg" style="height: 40px" alt="github logo">
+        <p>Visit my Github</p>
+      </a>
+      <p class="year">2021</p>
+      <a class="rsschool-link" href="https://rs.school/js/">
+        <img class="rsschool-logo" src="./img/rs_school_js.svg" style="width: 100px" alt="rsschool logo">
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>
