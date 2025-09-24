@@ -48,3 +48,9 @@ Frontend developer with 3+ years of experience designing scalable web applicatio
 - English - B2
 - Polish - A2
 - Russian - Native
+
+## SKILLS
+
+**Hard:** JavaScript, TypeScript, React, Next.js, Redux, Redux Toolkit, Jotai, TanStack Query/Table, React Hook Form, Bootstrap, Styled-Components, Storybook, Webpack, Vite, Nx monorepo, Jest, RTL, Vitest, Cypress, MSW, Ant Design, Emotion, MUI, Tailwind CSS, CSS/SCSS modules, Docker, CI/CD, GitLab, HELM, Rancher, Gulp, TDD, SOLID, REST
+
+**Soft:** Commitment, focus on qaulity and detail, mentoring and knowledge sharing, continuous learning and self-development, active collaborator within a team.
