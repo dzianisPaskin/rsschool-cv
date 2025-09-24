@@ -36,3 +36,15 @@ Frontend developer with 3+ years of experience designing scalable web applicatio
 **Freelance** _07/2022 – 06/2023_
 
 - Developed websites and landing pages using JavaScript, Typescript, jQuery, React, Bootstrap, CSS/SCSS, Gulp
+
+## EDUCATION
+
+**Vitebsk State University named after P.M. Masherov** _2014 - 2019_
+
+- Bachelor's degree in Physical Education and Sports
+
+## LANGUAGES
+
+- English - B2
+- Polish - A2
+- Russian - Native
