@@ -54,3 +54,30 @@ Frontend developer with 3+ years of experience designing scalable web applicatio
 **Hard:** JavaScript, TypeScript, React, Next.js, Redux, Redux Toolkit, Jotai, TanStack Query/Table, React Hook Form, Bootstrap, Styled-Components, Storybook, Webpack, Vite, Nx monorepo, Jest, RTL, Vitest, Cypress, MSW, Ant Design, Emotion, MUI, Tailwind CSS, CSS/SCSS modules, Docker, CI/CD, GitLab, HELM, Rancher, Gulp, TDD, SOLID, REST
 
 **Soft:** Commitment, focus on qaulity and detail, mentoring and knowledge sharing, continuous learning and self-development, active collaborator within a team.
+
+## Code example
+
+```typescript
+const towerBuilder = (nFloors: number): string[] => {
+  const pyramid = [];
+  const floorLegth = nFloors * 2 - 1;
+  let floor = Array(floorLegth).fill("*").join("").split("");
+  let emptySpaceStart = 0;
+  let emptySpaceStartEnd = floorLegth - 1;
+  pyramid[nFloors - 1] = floor.join("");
+
+  for (let i = nFloors - 2; i >= 0; i--) {
+    floor = floor.map((it, idx) => {
+      if (idx === emptySpaceStart || idx === emptySpaceStartEnd) return " ";
+      return it;
+    });
+
+    pyramid[i] = floor.join("");
+
+    emptySpaceStart += 1;
+    emptySpaceStartEnd -= 1;
+  }
+
+  return pyramid;
+};
+```
