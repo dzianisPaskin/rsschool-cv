@@ -12,44 +12,285 @@
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#code-example">Code Example</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Denis Paskin</h1>
-      <section>
-        <h2>About Me</h2>
+      <section class="section hero" id="about">
+        <div class="hero-content">
+          <img
+            src="me.jpg"
+            alt="Denis Paskin"
+            class="photo"
+          >
+          <div class="hero-text">
+            <h1>Denis Paskin</h1>
+            <p class="intro">
+              Frontend developer with 3+ years of experience designing scalable
+              web applications in E-commerce, Marketing, and Healthcare with
+              React, Next.js, TypeScript, and JavaScript. Write maintainable,
+              clean, and test-driven code.
+            </p>
+          </div>
+        </div>
       </section>
-      <section>
+
+      <section class="section" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <h3>Middle Frontend Developer at IAV GmbH (Andersen)</h3>
+          <p class="period">01/2025 - 06/2025</p>
+          <p>
+            Built an admin panel that centralizes project ticket data from
+            platforms like Jira, providing detailed insights such as fill rates,
+            statistics, and comparisons.
+          </p>
+          <h4>Contributions:</h4>
+          <ul>
+            <li>
+              Configured CI/CD and automated deployment to Rancher via Helm
+              Charts, improving release efficiency.
+            </li>
+            <li>Wrote unit and e2e tests, reducing potential bugs.</li>
+            <li>
+              Implemented a cross-browser compatible UI, ensuring consistent
+              performance across major browsers.
+            </li>
+            <li>
+              Led a team of two engineers by defining priorities and creating
+              tasks, which helped accelerate and optimize development.
+            </li>
+          </ul>
+          <p>
+            <strong>Tools:</strong> TypeScript, React, Jotai, Ant Design,
+            Emotion, Vite, Vitest, RTL, Cypress, TanStack Query, i18Next,
+            Keycloak, Helm, Rancher, CI/CD, GitLab
+          </p>
+        </div>
+
+        <div class="experience-item">
+          <h3>Middle Frontend Developer at Swiss-Commerce (Andersen)</h3>
+          <p class="period">01/2024 - 12/2024</p>
+          <p>
+            Developed an app for dropshippers that enables users to order goods
+            from stock, choose suppliers, and set delivery terms or shipping
+            companies.
+          </p>
+          <p>
+            Developed a dashboard with a stock overview and a delivery
+            management table, where users can track delivery status and details,
+            adjust terms, and download delivery details as PDF files.
+          </p>
+          <h4>Contributions:</h4>
+          <ul>
+            <li>
+              Implemented accessibility guidelines (WCAG Level AA) and leveraged
+              the M3 design system to create a more usable and user-friendly
+              interface, which improved overall experience, earned positive
+              customer feedback, and increased the number of users.
+            </li>
+          </ul>
+          <p>
+            <strong>Tools:</strong> TypeScript, Next.js, Redux Toolkit, React
+            Hook Form, TanStack Query/Table, MSW, Storybook, MUI,
+            Styled-components, Tailwind CSS, React Virtuoso, Jest, RTL, Cypress,
+            Nx, i18Next, GitLab
+          </p>
+        </div>
+
+        <div class="experience-item">
+          <h3>
+            Junior Frontend Developer at Mariacher and Friends Werbeagentur GmbH
+            (Andersen)
+          </h3>
+          <p class="period">07/2023 – 12/2023</p>
+          <p>
+            Created a user-friendly hotel booking website that improved customer
+            transactions by streamlining the booking process and enhancing user
+            engagement.
+          </p>
+          <h4>Contributions:</h4>
+          <ul>
+            <li>
+              Refactored legacy code and optimized asset delivery by
+              implementing Critical Rendering CSS, preload, and lazy loading,
+              reducing load time from 7s to 4s and improving Core Web Vitals.
+            </li>
+            <li>
+              Implemented asset caching with Service Workers, resulting in
+              improved page load speeds and enhanced user experience.
+            </li>
+            <li>
+              Applied semantic HTML and W3C patterns, which improved SEO metrics
+              and accessibility.
+            </li>
+          </ul>
+          <p>
+            <strong>Tools:</strong> JavaScript, PHP, CSS, JQuery, WordPress,
+            TYPO3
+          </p>
+        </div>
+
+        <div class="experience-item">
+          <h3>Freelance</h3>
+          <p class="period">07/2022 – 06/2023</p>
+          <p>
+            Developed websites and landing pages using JavaScript, TypeScript,
+            jQuery, React, Bootstrap, CSS/SCSS, Gulp
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
         <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
+        <div class="skills-container">
+          <div class="skill-category hard-skills">
+            <h3>Hard Skills</h3>
+            <ul>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Redux & Redux Toolkit</li>
+              <li>Jotai</li>
+              <li>TanStack Query/Table</li>
+              <li>React Hook Form</li>
+              <li>Bootstrap</li>
+              <li>Styled-Components</li>
+              <li>Storybook</li>
+              <li>Webpack & Vite</li>
+              <li>Nx monorepo</li>
+              <li>Jest, RTL, Vitest</li>
+              <li>Cypress</li>
+              <li>MSW</li>
+              <li>Ant Design & Emotion</li>
+              <li>MUI & Tailwind CSS</li>
+              <li>CSS/SCSS modules</li>
+              <li>Docker</li>
+              <li>CI/CD & GitLab</li>
+              <li>HELM & Rancher</li>
+              <li>Gulp</li>
+              <li>TDD & SOLID</li>
+              <li>REST</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Commitment</li>
+              <li>Focus on quality and detail</li>
+              <li>Mentoring and knowledge sharing</li>
+              <li>Continuous learning and self-development</li>
+              <li>Active collaborator within a team</li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ul>
+
+      <section class="section" id="education">
+        <h2>Education & Languages</h2>
+        <div class="education-item">
+          <h3>Vitebsk State University named after P.M. Masherov</h3>
+          <p class="period">2014 - 2019</p>
+          <p>Bachelor's degree in Physical Education and Sports</p>
+        </div>
+
+        <div class="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>English - B2</li>
+            <li>Polish - A2</li>
+            <li>Russian - Native</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Contacts</h2>
-        <ul>
-          <li>Contact 1</li>
-          <li>Contact 2</li>
-          <li>Contact 3</li>
+
+      <section class="section" id="code-example">
+        <h2>Code Example</h2>
+        <div class="code-container">
+   <pre><code>const towerBuilder = (nFloors: number): string[] =&gt; {
+    const pyramid = [];
+    const floorLegth = nFloors * 2 - 1;
+    let floor = Array(floorLegth).fill("*").join("").split("");
+    let emptySpaceStart = 0;
+    let emptySpaceStartEnd = floorLegth - 1;
+    pyramid[nFloors - 1] = floor.join("");
+
+    for (let i = nFloors - 2; i &gt;= 0; i--) {
+      floor = floor.map((it, idx) =&gt; {
+        if (idx === emptySpaceStart || idx === emptySpaceStartEnd) return " ";
+        return it;
+      });
+
+      pyramid[i] = floor.join("");
+
+      emptySpaceStart += 1;
+      emptySpaceStartEnd -= 1;
+    }
+
+    return pyramid;
+  };</code></pre>
+    </div>
+      </section>
+
+      <section class="section" id="contact">
+        <h2>Contact Information</h2>
+        <ul class="contact-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/denis-paskin-a121b9220"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="mailto:askin.denis.00@gmail.com"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/dzianisPaskin"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://maps.app.goo.gl/EXkrBqADwByiBF6n9"
+              target="_blank"
+              >Wroclaw, Poland</a
+            >
+          </li>
         </ul>
       </section>
     </main>
     <footer>
-      <p>&copy; 2025 My CV</p>
+      <div class="footer-content">
+        <p>&copy; 2025 Denis Paskin</p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/dzianisPaskin"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://rs.school/"
+            target="_blank"
+          >
+            <img
+              src="./rs-school-logo.svg"
+              alt="RS School"
+              class="rs-logo"
+            >
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
