@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  content: '';
   margin: 0;
   padding: 0;
   border: 0;
@@ -14,14 +13,90 @@
 
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
 }
 
 header {
-  background-color: #35424a;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #ffffff;
-  padding: 10px 0;
-  text-align: center;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+  flex-direction: column;
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 481px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  nav ul {
+    gap: 2rem;
+  }
+
 }
